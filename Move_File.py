@@ -21,8 +21,6 @@ for file_name in list_of_files:
         path1 = from_dir + '/' + file_name                                 
         path2 = to_dir + '/' + "Arquivos_Documentos"                        
         path3 = to_dir + '/' + "Arquivos_Documentos" + '/' + file_name 
-        #print("path1 " , path1)
-        #print("path3 ", path3)
 
         if os.path.exists(path2):
           print("Movendo " + file_name + ".....")  
